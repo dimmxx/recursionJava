@@ -1,13 +1,12 @@
-package package1;
+package lesson;
 
 public class Recursion {
-
 
     public static void main(String[] args) {
 
         //f(0);
-        //System.out.println(fib(7));
-        System.out.println(fact(5));
+        System.out.println(fib(7));
+       // System.out.println(fact(5));
 
 
 
@@ -32,15 +31,13 @@ public class Recursion {
         return fib(n - 1) + fib (n - 2);
 
     }
-
+//  5! = 1*2*3*4*5
     public static int fact(int n){
-
-        int factor = 0;
-        if(num < n){
-            factor = fact(num * (num + 1));
+        if(n == 0){
+           return 1;
         }
 
-        return factor;
+        return fact(n * (n - 1));
     }
 
 
