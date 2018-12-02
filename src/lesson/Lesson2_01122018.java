@@ -11,9 +11,9 @@ public class Lesson2_01122018 {
 
         //discount(400);
 
-        timer(10);
+        //timer(10);
 
-        //scan();
+        scan();
 
 
     }
@@ -99,22 +99,6 @@ public class Lesson2_01122018 {
                 System.out.println("Error");
                  in.next();
             }
-
-
         }
-
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
 }
