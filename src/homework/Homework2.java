@@ -8,8 +8,8 @@ public class Homework2 {
 
         //arrayMonth();
         //System.out.println(palindrome());
-        //runDog();
-        runDogMatrix();
+        runDog();
+        //runDogMatrix();
 
     }
 
@@ -87,7 +87,6 @@ public class Homework2 {
     }
 
     public static void runDogMatrix(){
-
         char[][] array = new char[5][5];
         for (int i = 0; i < array.length; i++){
             for(int k = 0; k < array[i].length; k++) array[i][k] = '_';
@@ -143,6 +142,7 @@ public class Homework2 {
             }
 
         } while (true);
+        scan.close();
     }
 
     public static void printRunDogMatrix(char[][] array){

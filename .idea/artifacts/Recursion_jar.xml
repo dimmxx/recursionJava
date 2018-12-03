@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Recursion:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Recursion_jar</output-path>
+    <root id="archive" name="Recursion.jar">
+      <element id="module-output" name="Recursion" />
+    </root>
+  </artifact>
+</component>

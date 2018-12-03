@@ -3,12 +3,10 @@ package lesson;
 public class Recursion {
 
 
-    static int res = 0;
-
     public static void main(String[] args) {
 
         //f(0);
-        //System.out.println(fib(7));
+        //System.out.println(fib(5));
 
         System.out.println(fact(5));
 
@@ -37,12 +35,11 @@ public class Recursion {
     //  5! = 1*2*3*4*5
     public static int fact(int n) {
 
-        if (n > 0) {
-            res = fact(n * (n - 1));
-            n--;
+        if (n == 0) {
+            return 1;
         }
 
-        return res;
+        return n * fact(n - 1);
 
     }
 }
