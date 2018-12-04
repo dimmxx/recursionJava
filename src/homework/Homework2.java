@@ -87,7 +87,7 @@ public class Homework2 {
     }
 
     public static void runDogMatrix(){
-        char[][] array = new char[5][5];
+        char[][] array = new char[10][10];
         for (int i = 0; i < array.length; i++){
             for(int k = 0; k < array[i].length; k++) array[i][k] = '_';
         }
